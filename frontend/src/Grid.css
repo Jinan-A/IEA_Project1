@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.start-button, .reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.start-button {
+    background-color: #007bff;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}
+
+.reset-button {
+    background-color: #dc3545;
+}
+
+.reset-button:hover {
+    background-color: #a71d2a;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 2px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+.agent {
+    background-color: rgb(255, 97, 255);
+}

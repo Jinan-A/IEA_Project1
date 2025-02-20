@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  gap: 2px;
+  margin: 20px;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  background-color: lightgray;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.cell.agent {
+  background-color: blue;
+}
