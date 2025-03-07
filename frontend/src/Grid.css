@@ -50,5 +50,11 @@
 }
 
 .agent {
-    background-color: rgb(255, 97, 255);
+    background-color: rgb(0, 0, 0);
+    transition: all 0.5s ease;
+}
+
+.agent.moving {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
